@@ -402,6 +402,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from Yumeko.modules import connection
+from horisan.modules import connection
 
 connected = connection.connected
